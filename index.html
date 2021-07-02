@@ -4,13 +4,15 @@
   <title>Currency Exchange Application</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container mt-5">
+    <h1 class="text-center mb-1">Currency Exchange Application</h1>
+    <hr>
     <div class="row">
-      <div class="col-6">
+      <div class="col-5">
         <div id="show-conversion"></div>
         <form id="currency-form">
           <div class="form-group">
-            <label for="amount-currency1">Amount</label>
+            <label for="amount-currency1">Amount:</label>
             <input id="amount-currency1" class="form-control" type="text">
           </div>
           <div class="form-group">
@@ -26,9 +28,10 @@
           <input class="btn btn-warning" id="switch" type="button" value="Switch">
         </form>
       </div>
+      <div class="col"></div>
       <div class="col-6 scroll">
         <table>
-          <tbody><tr><td width="160px" align="left"><h6 class="mb-1">Currency Code</h6></td><td width="250px" align="left"><h6 class="mb-1">Currency Name</h6></td><td align="left"><h6 class="mb-1">Country</h6></td></tr>
+          <tr><td width="160px" align="left"><h6 class="mb-1 font-weight-bold">Currency Code</h6></td><td width="250px" align="left"><h6 class="mb-1 font-weight-bold">Currency Name</h6></td><td align="left"><h6 class="mb-1 font-weight-bold">Country</h6></td></tr>
           <tr><td align="left">AED</td><td align="left">UAE Dirham</td><td align="left">United Arab Emirates</td></tr>
           <tr><td align="left">AFN</td><td align="left">Afghan Afghani</td><td align="left">Afghanistan</td></tr>
           <tr><td align="left">ALL</td><td align="left">Albanian Lek</td><td align="left">Albania</td></tr>
@@ -129,7 +132,7 @@
           <tr><td align="left">MXN</td><td align="left">Mexican Peso</td><td align="left">Mexico</td></tr>
           <tr><td align="left">MYR</td><td align="left">Malaysian Ringgit</td><td align="left">Malaysia</td></tr>
           <tr><td align="left">MZN</td><td align="left">Mozambican Metical</td><td align="left">Mozambique</td></tr>
-           <tr><td align="left">NAD</td><td align="left">Namibian Dollar</td><td align="left">Namibia</td></tr>
+          <tr><td align="left">NAD</td><td align="left">Namibian Dollar</td><td align="left">Namibia</td></tr>
           <tr><td align="left">NGN</td><td align="left">Nigerian Naira</td><td align="left">Nigeria</td></tr>
           <tr><td align="left">NIO</td><td align="left">Nicaraguan Córdoba</td><td align="left">Nicaragua</td></tr>
           <tr><td align="left">NOK</td><td align="left">Norwegian Krone</td><td align="left">Norway</td></tr>
@@ -189,7 +192,6 @@
           <tr><td align="left">YER</td><td align="left">Yemeni Rial</td><td align="left">Yemen</td></tr>
           <tr><td align="left">ZAR</td><td align="left">South African Rand</td><td align="left">South Africa</td></tr>
           <tr><td align="left">ZMW</td><td align="left">Zambian Kwacha</td><td align="left">Zambia</td></tr>
-          </tbody>
         </table>
       </div>
     </div>
