@@ -5,15 +5,34 @@ div.scroll {
   overflow-y: auto;
 }
 
+form {
+  font-size: large;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: rgb(210, 143, 42);
+}
+
+tr:nth-child(even),
+tr:nth-child(odd) {
+  background-color: rgb(89, 62, 62);
+}
+
 .bottom {
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-form {
-  font-size: large;
-  text-align: left;
 }
 
 #show-conversion {
@@ -27,23 +46,4 @@ form {
 th {
   border: 1px solid gold;
   padding: 8px;
-}
-
-table {
-  width: 100%;
-}
-
-td,
-th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-tr:nth-child(even),
-tr:nth-child(odd) {
-  background-color: rgb(89, 62, 62);
-}
-
-tr:hover {
-  background-color: rgb(210, 143, 42);
 }
