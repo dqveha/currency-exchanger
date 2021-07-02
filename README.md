@@ -32,7 +32,7 @@ This project is a web application that DESCRIPTION
 6. For a production build, use `npm run build`
 ---
 ### Known Issues:
-1. NO KNOWN ISSUES
+1. Alert..
 2. Please open a pull request if you have any issues!
 ---
 ### Test Suite/Specification

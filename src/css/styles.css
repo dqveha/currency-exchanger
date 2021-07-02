@@ -1,23 +1,36 @@
 div.scroll {
   width: 500px;
-  height: 100vh;
+  height: 80vh;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+form {
+  font-size: large;
+  text-align: left;
+}
+
 #show-conversion {
   display: none;
+  font-size: large;
+  border: 3px solid gold;
+  padding: 10px;
+}
+
+#show-conversion td,
+th {
+  border: 1px solid gold;
+  padding: 8px;
 }
 
 table {
   width: 100%;
-}
-
-#show-conversion table {
-  border: 1px solid #ddd;
-  padding: 8px;
-  background-color: white;
-  margin-bottom: 1rem;
 }
 
 td,
@@ -26,9 +39,11 @@ th {
   padding: 8px;
 }
 
-.scroll tr:nth-child(even) {
-  background-color: #f2f2f2;
+tr:nth-child(even),
+tr:nth-child(odd) {
+  background-color: rgb(89, 62, 62);
 }
+
 tr:hover {
-  background-color: #ddd;
+  background-color: rgb(210, 143, 42);
 }

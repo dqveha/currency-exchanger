@@ -9,10 +9,9 @@ function formatNumber(num) {
 }
 
 function displayConversionRate(response) {
-  console.log(response);
   if (response["error-type"] == "unsupported-code" || response["error-type"] == "malformed-request" || (response["error-type"] === undefined && response.result !== "success")) {
     $("#show-conversion")
-    .html(`<table>ERROR: ${response["error-type"]}.<hr>Please fix your values with the appropriate currency code as indicated on the most left-hand column of the table.</table>`).show();
+    .html(`<table>ERROR: ${response["error-type"]}.<hr>Please fix your values with the correct amount and/or appropriate currency code as indicated on the most left-hand column of the table.</table>`).show();
   } else if (response.conversion_rate) {
     const conversionResult = formatNumber(response.conversion_result.toFixed(4));
     const conversionRate = formatNumber(response.conversion_rate.toFixed(4));
@@ -20,8 +19,8 @@ function displayConversionRate(response) {
       .html(
         `<table>
         <tr>
-          <th>Total Amount Converted</th>
-          <th>Conversion Rate</th>
+          <th>TOTAL AMOUNT CONVERTED</th>
+          <th>CONVERSION RATE</th>
         </tr>
         <tr>
           <td>${conversionResult}</td>
