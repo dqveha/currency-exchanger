@@ -20,11 +20,12 @@ $(document).ready(function() {
 
   $("#currency-form").submit(function(event) {
     event.preventDefault();
-    CurrencyExchanger.getExchangePair("USD", "USD")
+    CurrencyExchanger.getExchangePair(currency1, currency2)
     .then(function(response) {
       displayConversionRate(response);
     });
     console.log(currency1);
+    console.log(currency2);
   })
 
   $("input#reset").click(function () {
