@@ -12,3 +12,23 @@ div.scroll {
 table {
   width: 100%;
 }
+
+#show-conversion table {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.scroll tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
