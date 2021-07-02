@@ -9,9 +9,11 @@ describe('CurrencyExchanger', () => {
   })
 
   test('should return exchange rate between USD to GBP', () => {
-    CurrencyExchanger.getExchangePair("USD", "GBP").then(data => {
-      expect.assertions(1);
-      expect(data).toContain(data.conversion_rate);
-    });
-  });
-})
+    CurrencyExchanger.getExchangePair("USD", "GBP")
+    .then(function(response) {
+    displayConversionRate(response => {
+      expect(response).toContain(response.conversion_rate);
+    }
+  }
+  })
+});
