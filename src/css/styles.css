@@ -8,3 +8,7 @@ div.scroll {
 #show-conversion {
   display: none;
 }
+
+table {
+  width: 100%;
+}
