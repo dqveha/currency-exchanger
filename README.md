@@ -1,4 +1,4 @@
-# PROJECT NAME
+<!-- # PROJECT NAME
 ## By Dave Lindqvist
 
 ---
@@ -44,7 +44,7 @@ Describe: TESTS
 
 ```
 ---
-### License is GPLv3 and I make no claim to copyright. 
+### License is GPLv3 and I make no claim to copyright.
 <br />
 
 > You can't steal what is freely given. Enjoy!
@@ -55,4 +55,4 @@ Describe: TESTS
 <br />
 <p align="center">
   <small>Made in Portland, Oregon. </small>
-</p>
+</p> -->
