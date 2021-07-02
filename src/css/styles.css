@@ -1,0 +1,10 @@
+div.scroll {
+  width: 500px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#show-conversion {
+  display: none;
+}
