@@ -43,6 +43,9 @@ $(document).ready(function() {
   });
 
   $("input#switch").click(function() {
-    $()
+    let currency1 = $('input#currency1').val();
+    let currency2 = $('input#currency2').val();
+    $('input#currency1').val(currency2);
+    $('input#currency2').val(currency1);
   })
 });
