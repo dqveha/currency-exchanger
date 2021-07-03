@@ -1,6 +1,6 @@
 # Currency Exchange Application
 
-## [https://github.com/dqveha/currency-exchanger/] (https://github.com/dqveha/currency-exchanger/)
+## [https://github.com/dqveha/currency-exchanger/](https://github.com/dqveha/currency-exchanger/)
 
 #### By Dave Lindqvist
 
@@ -23,6 +23,8 @@
 ## Project Description
 
 This is the sixth independent project assigned by Epicodus to assess the use of API within a working environment. The purpose of this web application is to allow the user to input a currency and amount, then convert it into another currency using ExchangeRate-API. Users have the option of inputting any currency code listed in the table as shown within the page. If there is an error, then the user is prompted by error messages to help figure out how to troubleshoot the problem.
+
+Designed to be viewed with a resolution of ### x 1100, and higher.
 
 Additional features added from author:
 

@@ -33,6 +33,7 @@ tr:nth-child(odd) {
   position: absolute;
   bottom: 0;
   left: 0;
+  font-size: medium;
 }
 
 #show-conversion {
