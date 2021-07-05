@@ -33,18 +33,18 @@ Additional features added from author:
 
 ### Installation Instructions
 
-1. Clone this repo: `git clone https://github.com/dqveha/currency-exchanger.git`
-2. Open `currency-exchanger` directory using Visual Studio Code
-3. Create an `.env` file in the top most directory and insert `API_KEY=` then save
-4. Visit the ExchangeRate-API site, enter your email address, and click the "Get Free Key" button
-5. Create an account with your email, first name, and a password
-6. Agree to terms and click "Get Started!"
-7. Confirm your email address
-8. Copy and paste your API Key from ExchangeRate-API dashboard page into your .env after `API_KEY=`
-9. Install dependencies with `npm install`
-10. To run it locally, use the npm dev command `npm run start`
-11. Open your web browser and navigate to http://localhost:9001
-12. For a production build, use `npm run build`
+1. Clone this repo: `git clone https://github.com/dqveha/currency-exchanger.git`.
+2. Open `currency-exchanger` directory using Visual Studio Code.
+3. Create an `.env` file in the top most directory and insert `API_KEY=` then save.
+4. Visit the ExchangeRate-API site, enter your email address, and click the "Get Free Key" button.
+5. Create an account with your email, first name, and a password.
+6. Agree to terms and click "Get Started!".
+7. Confirm your email address.
+8. Copy and paste your API Key from ExchangeRate-API dashboard page into your .env after `API_KEY=`.
+9. Install dependencies with `npm install` within Visual Studio Code.
+10. To run it locally, use the npm dev command `npm run start`.
+11. Open your web browser and navigate to `http://localhost:9001`.
+12. For a production build, use `npm run build`.
 
 ---
 
