@@ -7,12 +7,10 @@
     "node": "12.11.1"
     }
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "test": "jest --coverage",
+    "build": "webpack --config webpack.config.js",
+    "lint": "eslint src/*.js",
+    "start": "npm run build; webpack serve --mode=development"
   },
   "repository": {
     "type": "git",

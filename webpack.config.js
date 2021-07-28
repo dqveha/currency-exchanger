@@ -14,7 +14,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: false,
-    port: 27575
+    port: 8000
   },
   plugins: [
     new Dotenv(),
