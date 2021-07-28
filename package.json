@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "---",
   "main": "src/main.js",
-  "engines": {
-    "node": "12.11.1"
-    },
-  "scripts": {
-    "test": "jest --coverage",
-    "build": "webpack --config webpack.config.js",
-    "lint": "eslint src/*.js",
-    "start": "npm run build; webpack serve --mode=development"
-  },
+    "scripts": {
+      "dev": "react-scripts start",
+      "start": "serve -s build",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "heroku-postbuild": "npm run build"
+      },
   "repository": {
     "type": "git",
     "url": ""
