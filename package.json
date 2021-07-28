@@ -1,16 +1,17 @@
 {
   "name": "new-template",
   "version": "1.0.0",
-  "description": "---",
+  "description": "description",
+  "homepage": "",
   "main": "src/main.js",
-    "scripts": {
-      "dev": "react-scripts start",
-      "start": "serve -s build",
-      "build": "react-scripts build",
-      "test": "react-scripts test --env=jsdom",
-      "eject": "react-scripts eject",
-      "heroku-postbuild": "npm run build"
-      },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+    },
   "repository": {
     "type": "git",
     "url": ""
@@ -20,7 +21,6 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
