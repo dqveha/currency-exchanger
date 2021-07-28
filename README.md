@@ -16,7 +16,7 @@
 6. eslint
 7. babel transpiler
 8. ExchangeRate-API
-9. Github Pages Deploy Action v4.1.4
+9. Heroku
 
 ---
 
