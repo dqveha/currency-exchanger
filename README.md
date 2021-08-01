@@ -43,7 +43,7 @@ Additional features added from author:
 8. Copy and paste your API Key from ExchangeRate-API dashboard page into your .env after `API_KEY=`.
 9. Install dependencies with `npm install` within Visual Studio Code.
 10. To run it locally, use the npm dev command `npm run start`.
-11. Open your web browser and navigate to `http://localhost:9001`.
+11. Open your web browser and navigate to `http://localhost:8000`.
 12. For a production build, use `npm run build`.
 
 ---
